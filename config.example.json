@@ -1,0 +1,15 @@
+{
+    "default_browser": "Safari",
+    "rules": [
+        {
+            "comment": "Google links",
+            "pattern": "google\\.com",
+            "target": "Google Chrome"
+        },
+        {
+            "comment": "Bing links",
+            "pattern": "bing\\.com",
+            "target": "Microsoft Edge"
+        }
+    ]
+}
