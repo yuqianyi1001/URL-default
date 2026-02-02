@@ -12,8 +12,6 @@
     <string>1.0</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
-    <key>LSBackgroundOnly</key>
-    <true/>
     <key>CFBundleURLTypes</key>
     <array>
         <dict>
@@ -24,7 +22,34 @@
                 <string>http</string>
                 <string>https</string>
             </array>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
         </dict>
     </array>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeName</key>
+            <string>HTML document</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>public.html</string>
+            </array>
+        </dict>
+        <dict>
+            <key>CFBundleTypeName</key>
+            <string>XHTML document</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>public.xhtml</string>
+            </array>
+        </dict>
+    </array>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
 </dict>
 </plist>
