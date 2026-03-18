@@ -1,6 +1,7 @@
 # Cross-Platform URL Router
 
-A Rust application that routes URLs to specific browsers or applications based on regex rules.
+A Rust application that routes URLs to specific browsers or applications based on regex rules.  
+AI Vibed App, Use at your own risk. Feel free to make change or submit PRs.  
 
 ## Setup
 
@@ -33,4 +34,5 @@ To create a new release on GitHub:
     git push origin v0.1.0
     ```
 3.  The GitHub Action will automatically build the application and upload a `URLRouter.zip` to the Releases page.
+
 
